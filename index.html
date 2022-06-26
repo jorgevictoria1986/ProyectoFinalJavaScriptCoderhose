@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simulador de Prestamos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    
+    <div id="principal" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center light">
+        <div id="secundario">
+            
+            <a id="mode" class="btn btn-outline-secondary" href="#">Dark Mode</a>
+        </div>
+    </div>
+
+
+<div class="cuadro">
+<h2 class="titulo">Cotización Dolar</h2>
+
+<div class="infodolar">
+   
+    <p class="dof" id="mostrardolaroficial"></p>
+    <p  class="dblue" id="mostrardolarblue"></p>
+
+</div>
+</div>
+<br>
+
+      
+    <h1 class="titulo">Sumulador de Prestamos - Sitema Francés</h1>
+
+    <div class="container">
+        <div class="row mt-3 centrar" >
+            <div class="col-4 centrar">
+                
+                <div class="form-group">
+                    <label for="monto">Monto</label>
+                    <input type="text" class="form-control" id="monto" placeholder="Ingresar monto">
+                </div>
+                <div class="form-group">
+                    <label for="tiempo">Tiempo en Meses</label>
+                    <input type="text" class="form-control" id="tiempo" placeholder="Ingresar cantidad de meses">
+                </div>
+                <div class="form-group">
+                    <label for="interes">Interés Mensual</label>
+                    <input type="text" class="form-control" id="interes" placeholder="Ingresar tasa de interés mensual">
+                </div class="col-6">
+                <button type="submit" class="btn btn-primary" id="btnCalcular">Calcular</button>
+                
+            </div>
+            <br>
+            <br>
+            <div class="boton1">
+                <table id="lista-tabla" class="table light">
+                    <thead>
+                        <tr>
+                            <th>Cuota Numero</th>
+                            <th>Fecha</th>
+                            <th>Cuota</th>
+                            <th>Capital</th>
+                            <th>Interés</th>
+                            <th>Saldo</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/js.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+<footer>
+   <p class="titulo">Simulador de Prestamos - Proyecto Final Curso Javascript CODERHOUSE - Jorge Adrián Victoria</p>
+</footer>
+
+</html>

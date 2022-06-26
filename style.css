@@ -1,0 +1,60 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.titulo{
+    font: verdara;
+    text-align: center;
+    margin: 10px;
+}
+
+.boton1{
+    margin: 15px;
+    padding: 10px;
+}
+
+.infodolar{
+    display:flex;
+    justify-content: center;
+}
+
+
+.dof{
+    border: solid black 2px;
+    width: 150px;
+    height: inherit;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.dblue{
+    border: solid black 2px;
+    width: 150px;
+    height: inherit;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.cuadro{
+    border: solid black 2px;
+}
+
+.centrar{
+    text-align: center;
+    justify-content: center;
+}
+
+#btnCalcular{
+    margin: 10px;
+    padding: 10px;
+}
